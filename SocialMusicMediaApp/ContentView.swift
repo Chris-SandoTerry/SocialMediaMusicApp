@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  SocialMusicMediaApp
-//
-//  Created by Christopher Sandoval Terry on 8/22/24.
-//
-
 import SwiftUI
 
 struct ContentView: View {
@@ -13,7 +6,7 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Hello!")
         }
         .padding()
     }
