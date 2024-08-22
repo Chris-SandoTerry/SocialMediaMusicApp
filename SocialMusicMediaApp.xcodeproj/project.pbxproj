@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DB928E82C77FB2100BF7712 /* SocialMusicMediaAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB928E72C77FB2100BF7712 /* SocialMusicMediaAppApp.swift */; };
+		0DB928EA2C77FB2100BF7712 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB928E92C77FB2100BF7712 /* ContentView.swift */; };
+		0DB928EC2C77FB2300BF7712 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DB928EB2C77FB2300BF7712 /* Assets.xcassets */; };
+		0DB928EF2C77FB2300BF7712 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DB928EE2C77FB2300BF7712 /* Preview Assets.xcassets */; };
+		0DB928F92C77FB2300BF7712 /* SocialMusicMediaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB928F82C77FB2300BF7712 /* SocialMusicMediaAppTests.swift */; };
+		0DB929032C77FB2300BF7712 /* SocialMusicMediaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB929022C77FB2300BF7712 /* SocialMusicMediaAppUITests.swift */; };
+		0DB929052C77FB2300BF7712 /* SocialMusicMediaAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB929042C77FB2300BF7712 /* SocialMusicMediaAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DB928F52C77FB2300BF7712 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DB928DC2C77FB2100BF7712 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DB928E32C77FB2100BF7712;
+			remoteInfo = SocialMusicMediaApp;
+		};
+		0DB928FF2C77FB2300BF7712 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DB928DC2C77FB2100BF7712 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DB928E32C77FB2100BF7712;
+			remoteInfo = SocialMusicMediaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DB928E42C77FB2100BF7712 /* SocialMusicMediaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialMusicMediaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DB928E72C77FB2100BF7712 /* SocialMusicMediaAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMusicMediaAppApp.swift; sourceTree = "<group>"; };
+		0DB928E92C77FB2100BF7712 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0DB928EB2C77FB2300BF7712 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DB928EE2C77FB2300BF7712 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0DB928F42C77FB2300BF7712 /* SocialMusicMediaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialMusicMediaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DB928F82C77FB2300BF7712 /* SocialMusicMediaAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMusicMediaAppTests.swift; sourceTree = "<group>"; };
+		0DB928FE2C77FB2300BF7712 /* SocialMusicMediaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialMusicMediaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DB929022C77FB2300BF7712 /* SocialMusicMediaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMusicMediaAppUITests.swift; sourceTree = "<group>"; };
+		0DB929042C77FB2300BF7712 /* SocialMusicMediaAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMusicMediaAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DB928E12C77FB2100BF7712 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DB928F12C77FB2300BF7712 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DB928FB2C77FB2300BF7712 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DB928DB2C77FB2100BF7712 = {
+			isa = PBXGroup;
+			children = (
+				0DB928E62C77FB2100BF7712 /* SocialMusicMediaApp */,
+				0DB928F72C77FB2300BF7712 /* SocialMusicMediaAppTests */,
+				0DB929012C77FB2300BF7712 /* SocialMusicMediaAppUITests */,
+				0DB928E52C77FB2100BF7712 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DB928E52C77FB2100BF7712 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DB928E42C77FB2100BF7712 /* SocialMusicMediaApp.app */,
+				0DB928F42C77FB2300BF7712 /* SocialMusicMediaAppTests.xctest */,
+				0DB928FE2C77FB2300BF7712 /* SocialMusicMediaAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DB928E62C77FB2100BF7712 /* SocialMusicMediaApp */ = {
+			isa = PBXGroup;
+			children = (
+				0DB928E72C77FB2100BF7712 /* SocialMusicMediaAppApp.swift */,
+				0DB928E92C77FB2100BF7712 /* ContentView.swift */,
+				0DB928EB2C77FB2300BF7712 /* Assets.xcassets */,
+				0DB928ED2C77FB2300BF7712 /* Preview Content */,
+			);
+			path = SocialMusicMediaApp;
+			sourceTree = "<group>";
+		};
+		0DB928ED2C77FB2300BF7712 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0DB928EE2C77FB2300BF7712 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0DB928F72C77FB2300BF7712 /* SocialMusicMediaAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				0DB928F82C77FB2300BF7712 /* SocialMusicMediaAppTests.swift */,
+			);
+			path = SocialMusicMediaAppTests;
+			sourceTree = "<group>";
+		};
+		0DB929012C77FB2300BF7712 /* SocialMusicMediaAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0DB929022C77FB2300BF7712 /* SocialMusicMediaAppUITests.swift */,
+				0DB929042C77FB2300BF7712 /* SocialMusicMediaAppUITestsLaunchTests.swift */,
+			);
+			path = SocialMusicMediaAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DB928E32C77FB2100BF7712 /* SocialMusicMediaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DB929082C77FB2300BF7712 /* Build configuration list for PBXNativeTarget "SocialMusicMediaApp" */;
+			buildPhases = (
+				0DB928E02C77FB2100BF7712 /* Sources */,
+				0DB928E12C77FB2100BF7712 /* Frameworks */,
+				0DB928E22C77FB2100BF7712 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialMusicMediaApp;
+			productName = SocialMusicMediaApp;
+			productReference = 0DB928E42C77FB2100BF7712 /* SocialMusicMediaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0DB928F32C77FB2300BF7712 /* SocialMusicMediaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DB9290B2C77FB2300BF7712 /* Build configuration list for PBXNativeTarget "SocialMusicMediaAppTests" */;
+			buildPhases = (
+				0DB928F02C77FB2300BF7712 /* Sources */,
+				0DB928F12C77FB2300BF7712 /* Frameworks */,
+				0DB928F22C77FB2300BF7712 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DB928F62C77FB2300BF7712 /* PBXTargetDependency */,
+			);
+			name = SocialMusicMediaAppTests;
+			productName = SocialMusicMediaAppTests;
+			productReference = 0DB928F42C77FB2300BF7712 /* SocialMusicMediaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0DB928FD2C77FB2300BF7712 /* SocialMusicMediaAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DB9290E2C77FB2300BF7712 /* Build configuration list for PBXNativeTarget "SocialMusicMediaAppUITests" */;
+			buildPhases = (
+				0DB928FA2C77FB2300BF7712 /* Sources */,
+				0DB928FB2C77FB2300BF7712 /* Frameworks */,
+				0DB928FC2C77FB2300BF7712 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DB929002C77FB2300BF7712 /* PBXTargetDependency */,
+			);
+			name = SocialMusicMediaAppUITests;
+			productName = SocialMusicMediaAppUITests;
+			productReference = 0DB928FE2C77FB2300BF7712 /* SocialMusicMediaAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DB928DC2C77FB2100BF7712 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					0DB928E32C77FB2100BF7712 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					0DB928F32C77FB2300BF7712 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 0DB928E32C77FB2100BF7712;
+					};
+					0DB928FD2C77FB2300BF7712 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 0DB928E32C77FB2100BF7712;
+					};
+				};
+			};
+			buildConfigurationList = 0DB928DF2C77FB2100BF7712 /* Build configuration list for PBXProject "SocialMusicMediaApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0DB928DB2C77FB2100BF7712;
+			productRefGroup = 0DB928E52C77FB2100BF7712 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DB928E32C77FB2100BF7712 /* SocialMusicMediaApp */,
+				0DB928F32C77FB2300BF7712 /* SocialMusicMediaAppTests */,
+				0DB928FD2C77FB2300BF7712 /* SocialMusicMediaAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DB928E22C77FB2100BF7712 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DB928EF2C77FB2300BF7712 /* Preview Assets.xcassets in Resources */,
+				0DB928EC2C77FB2300BF7712 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DB928F22C77FB2300BF7712 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DB928FC2C77FB2300BF7712 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DB928E02C77FB2100BF7712 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DB928EA2C77FB2100BF7712 /* ContentView.swift in Sources */,
+				0DB928E82C77FB2100BF7712 /* SocialMusicMediaAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DB928F02C77FB2300BF7712 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DB928F92C77FB2300BF7712 /* SocialMusicMediaAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DB928FA2C77FB2300BF7712 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DB929052C77FB2300BF7712 /* SocialMusicMediaAppUITestsLaunchTests.swift in Sources */,
+				0DB929032C77FB2300BF7712 /* SocialMusicMediaAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DB928F62C77FB2300BF7712 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DB928E32C77FB2100BF7712 /* SocialMusicMediaApp */;
+			targetProxy = 0DB928F52C77FB2300BF7712 /* PBXContainerItemProxy */;
+		};
+		0DB929002C77FB2300BF7712 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DB928E32C77FB2100BF7712 /* SocialMusicMediaApp */;
+			targetProxy = 0DB928FF2C77FB2300BF7712 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0DB929062C77FB2300BF7712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0DB929072C77FB2300BF7712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DB929092C77FB2300BF7712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SocialMusicMediaApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 5FGB2S4NR6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = StartUp.SocialMusicMediaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0DB9290A2C77FB2300BF7712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SocialMusicMediaApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 5FGB2S4NR6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = StartUp.SocialMusicMediaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0DB9290C2C77FB2300BF7712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5FGB2S4NR6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = StartUp.SocialMusicMediaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialMusicMediaApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SocialMusicMediaApp";
+			};
+			name = Debug;
+		};
+		0DB9290D2C77FB2300BF7712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5FGB2S4NR6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = StartUp.SocialMusicMediaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialMusicMediaApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SocialMusicMediaApp";
+			};
+			name = Release;
+		};
+		0DB9290F2C77FB2300BF7712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5FGB2S4NR6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = StartUp.SocialMusicMediaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SocialMusicMediaApp;
+			};
+			name = Debug;
+		};
+		0DB929102C77FB2300BF7712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5FGB2S4NR6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = StartUp.SocialMusicMediaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SocialMusicMediaApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DB928DF2C77FB2100BF7712 /* Build configuration list for PBXProject "SocialMusicMediaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DB929062C77FB2300BF7712 /* Debug */,
+				0DB929072C77FB2300BF7712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DB929082C77FB2300BF7712 /* Build configuration list for PBXNativeTarget "SocialMusicMediaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DB929092C77FB2300BF7712 /* Debug */,
+				0DB9290A2C77FB2300BF7712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DB9290B2C77FB2300BF7712 /* Build configuration list for PBXNativeTarget "SocialMusicMediaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DB9290C2C77FB2300BF7712 /* Debug */,
+				0DB9290D2C77FB2300BF7712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DB9290E2C77FB2300BF7712 /* Build configuration list for PBXNativeTarget "SocialMusicMediaAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DB9290F2C77FB2300BF7712 /* Debug */,
+				0DB929102C77FB2300BF7712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DB928DC2C77FB2100BF7712 /* Project object */;
+}
