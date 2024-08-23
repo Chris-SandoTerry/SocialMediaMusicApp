@@ -144,6 +144,7 @@
 			children = (
 				0DB928E72C77FB2100BF7712 /* SocialMusicMediaAppApp.swift */,
 				0DB928E92C77FB2100BF7712 /* ContentView.swift */,
+				0DB929442C780DF500BF7712 /* New Group */,
 				0DB929112C78074C00BF7712 /* GoogleService-Info.plist */,
 				0DB928EB2C77FB2300BF7712 /* Assets.xcassets */,
 				0DB928ED2C77FB2300BF7712 /* Preview Content */,
@@ -174,6 +175,13 @@
 				0DB929042C77FB2300BF7712 /* SocialMusicMediaAppUITestsLaunchTests.swift */,
 			);
 			path = SocialMusicMediaAppUITests;
+			sourceTree = "<group>";
+		};
+		0DB929442C780DF500BF7712 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
