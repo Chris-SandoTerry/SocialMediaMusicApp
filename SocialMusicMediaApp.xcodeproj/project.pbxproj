@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D2397AC2C78D59B00B7CEC3 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2397AB2C78D59B00B7CEC3 /* RootView.swift */; };
+		0D2397AE2C78D8DF00B7CEC3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2397AD2C78D8DF00B7CEC3 /* SettingsView.swift */; };
 		0DAE4A4E2C78277C00A5906D /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAE4A4D2C78277C00A5906D /* AuthenticationView.swift */; };
 		0DAE4A502C78294B00A5906D /* SignInEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAE4A4F2C78294B00A5906D /* SignInEmailView.swift */; };
 		0DAE4A542C782DC600A5906D /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAE4A532C782DC600A5906D /* AuthenticationManager.swift */; };
@@ -61,6 +63,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D2397AB2C78D59B00B7CEC3 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		0D2397AD2C78D8DF00B7CEC3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		0DAE4A4D2C78277C00A5906D /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
 		0DAE4A4F2C78294B00A5906D /* SignInEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInEmailView.swift; sourceTree = "<group>"; };
 		0DAE4A532C782DC600A5906D /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
@@ -186,9 +190,11 @@
 		0DB929442C780DF500BF7712 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				0D2397AB2C78D59B00B7CEC3 /* RootView.swift */,
 				0DAE4A4D2C78277C00A5906D /* AuthenticationView.swift */,
 				0DAE4A4F2C78294B00A5906D /* SignInEmailView.swift */,
 				0DAE4A532C782DC600A5906D /* AuthenticationManager.swift */,
+				0D2397AD2C78D8DF00B7CEC3 /* SettingsView.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -352,8 +358,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D2397AE2C78D8DF00B7CEC3 /* SettingsView.swift in Sources */,
 				0DB928EA2C77FB2100BF7712 /* ContentView.swift in Sources */,
 				0DB928E82C77FB2100BF7712 /* SocialMusicMediaAppApp.swift in Sources */,
+				0D2397AC2C78D59B00B7CEC3 /* RootView.swift in Sources */,
 				0DAE4A4E2C78277C00A5906D /* AuthenticationView.swift in Sources */,
 				0DAE4A542C782DC600A5906D /* AuthenticationManager.swift in Sources */,
 				0DAE4A502C78294B00A5906D /* SignInEmailView.swift in Sources */,

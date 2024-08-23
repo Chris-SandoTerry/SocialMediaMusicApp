@@ -32,7 +32,13 @@ struct SignInEmailView: View {
     
     
     var body: some View {
+        
+        Text("Welcome to Muxic")
+            .font(.headline)
+            .dynamicTypeSize(.xLarge)
+        
         VStack{
+            
             TextField("Email", text: $viewModel.email)
                 .padding()
                 .background(Color.gray.opacity(0.4))
@@ -51,15 +57,15 @@ struct SignInEmailView: View {
                     .foregroundColor(.white)
                     .frame(height: 55)
                     .frame(maxWidth: .infinity)
-                    .background(Color.blue)
+                    .background(Color.purple)
                     .cornerRadius(10)
             }
             
-            Spacer()
         }
         .padding()
         .navigationTitle("Sign In With Email")
     }
+
 }
 
 #Preview {

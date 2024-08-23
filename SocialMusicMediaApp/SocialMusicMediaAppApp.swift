@@ -9,9 +9,7 @@ struct SocialMusicMediaAppApp: App {
     
     var body: some Scene {
         WindowGroup {
-            NavigationStack {
-                AuthenticationView()
-            }
+           RootView()
         }
     }
 }
