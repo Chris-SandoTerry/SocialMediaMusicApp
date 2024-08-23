@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DAE4A4E2C78277C00A5906D /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAE4A4D2C78277C00A5906D /* AuthenticationView.swift */; };
+		0DAE4A502C78294B00A5906D /* SignInEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAE4A4F2C78294B00A5906D /* SignInEmailView.swift */; };
+		0DAE4A542C782DC600A5906D /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAE4A532C782DC600A5906D /* AuthenticationManager.swift */; };
 		0DB928E82C77FB2100BF7712 /* SocialMusicMediaAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB928E72C77FB2100BF7712 /* SocialMusicMediaAppApp.swift */; };
 		0DB928EA2C77FB2100BF7712 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB928E92C77FB2100BF7712 /* ContentView.swift */; };
 		0DB928EC2C77FB2300BF7712 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DB928EB2C77FB2300BF7712 /* Assets.xcassets */; };
@@ -58,6 +61,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DAE4A4D2C78277C00A5906D /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		0DAE4A4F2C78294B00A5906D /* SignInEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInEmailView.swift; sourceTree = "<group>"; };
+		0DAE4A532C782DC600A5906D /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
 		0DB928E42C77FB2100BF7712 /* SocialMusicMediaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialMusicMediaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DB928E72C77FB2100BF7712 /* SocialMusicMediaAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMusicMediaAppApp.swift; sourceTree = "<group>"; };
 		0DB928E92C77FB2100BF7712 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -144,7 +150,7 @@
 			children = (
 				0DB928E72C77FB2100BF7712 /* SocialMusicMediaAppApp.swift */,
 				0DB928E92C77FB2100BF7712 /* ContentView.swift */,
-				0DB929442C780DF500BF7712 /* New Group */,
+				0DB929442C780DF500BF7712 /* Authentication */,
 				0DB929112C78074C00BF7712 /* GoogleService-Info.plist */,
 				0DB928EB2C77FB2300BF7712 /* Assets.xcassets */,
 				0DB928ED2C77FB2300BF7712 /* Preview Content */,
@@ -177,11 +183,14 @@
 			path = SocialMusicMediaAppUITests;
 			sourceTree = "<group>";
 		};
-		0DB929442C780DF500BF7712 /* New Group */ = {
+		0DB929442C780DF500BF7712 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				0DAE4A4D2C78277C00A5906D /* AuthenticationView.swift */,
+				0DAE4A4F2C78294B00A5906D /* SignInEmailView.swift */,
+				0DAE4A532C782DC600A5906D /* AuthenticationManager.swift */,
 			);
-			path = "New Group";
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -345,6 +354,9 @@
 			files = (
 				0DB928EA2C77FB2100BF7712 /* ContentView.swift in Sources */,
 				0DB928E82C77FB2100BF7712 /* SocialMusicMediaAppApp.swift in Sources */,
+				0DAE4A4E2C78277C00A5906D /* AuthenticationView.swift in Sources */,
+				0DAE4A542C782DC600A5906D /* AuthenticationManager.swift in Sources */,
+				0DAE4A502C78294B00A5906D /* SignInEmailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
