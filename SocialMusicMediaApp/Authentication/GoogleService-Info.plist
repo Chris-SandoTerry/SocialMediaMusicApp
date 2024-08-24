@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>928942643351-d6713ge4ah1d05n77nk24qf5tk61p8pe.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.928942643351-d6713ge4ah1d05n77nk24qf5tk61p8pe</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBM-0cvK2ceGa6G0BPzpOAfYaxTRIHSsZE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>928942643351</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>StartUp.SocialMusicMediaApp</string>
+	<key>PROJECT_ID</key>
+	<string>muix-fac0c</string>
+	<key>STORAGE_BUCKET</key>
+	<string>muix-fac0c.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:928942643351:ios:8b4d560364de9d1b31b1d2</string>
+</dict>
+</plist>
