@@ -8,9 +8,9 @@ import GoogleSignInSwift
 final class AuthenticationViewModel: ObservableObject {
     
     func signInGoogle() async throws {
-//        let something = GIDSignIn.sharedInstance.signIn(withPresenting: <#T##UIViewController#>)
-        
-        
+        let helper = SignInGoogleHelper()
+        let tokens = try await helper.signIn()
+        try await AuthenticationManager.shared.signInWithGoogle(tokens: tokens)
     }
     
 }
@@ -36,6 +36,15 @@ struct AuthenticationView: View {
             }
             
             GoogleSignInButton(viewModel: GoogleSignInButtonViewModel(scheme: .light, style: .wide,state: .normal)) {
+                
+                Task{
+                    do {
+                        try await viewModel.signInGoogle()
+                        showSignInView = false
+                    } catch {
+                        print(error)
+                    }
+                }
                 
             }
             Spacer()
